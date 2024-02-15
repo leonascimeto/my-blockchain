@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A simple blockchain implementation",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
     "start": "node ./app",
     "dev": "nodemon ./app"
   },
