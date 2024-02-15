@@ -14,7 +14,7 @@ app.get('/blocks', (req, res) => {
 app.post('/mine', (req, res) => {
    const block = bc.addBlock(req.body.data);
    console.log(`New block added: ${block.toString()}`);
-   res.redirect('/blocks');
+   res.json(bc.chain);
 });
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
