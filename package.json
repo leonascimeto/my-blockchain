@@ -1,0 +1,14 @@
+{
+  "name": "my-blockchain",
+  "version": "1.0.0",
+  "description": "A simple blockchain implementation",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
